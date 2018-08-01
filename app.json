@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/submit/yuyue",
+    "pages/public/public",
+    "pages/cars/cars",
+    "pages/contact/contact",
+    "pages/detail/detail",
+    "pages/products/product",
+    "pages/location/location"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "PORSCHE",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": "true",
+    "backgroundColor": "#0f1010"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "推荐",
+        "iconPath": "static/icon/1.png",
+        "selectedIconPath": "static/icon/3.png"
+      },
+      {
+        "pagePath": "pages/cars/cars",
+        "text": "所有车型",
+        "iconPath": "static/icon/car1.png",
+        "selectedIconPath": "static/icon/car2.png"
+      },
+      {
+        "pagePath": "pages/submit/yuyue",
+        "text": "提交预约",
+        "iconPath": "static/icon/2.png",
+        "selectedIconPath": "static/icon/4.png"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "text": "联系我们",
+        "iconPath": "static/icon/contact1.png",
+        "selectedIconPath": "static/icon/contact2.png"
+      }
+    ],
+    "color": "#8a8a8a",
+    "selectedColor": "2c2c2c"
+  }
+}
