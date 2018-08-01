@@ -1,0 +1,13 @@
+.container{
+  padding: 50rpx 0;
+}
+.detail text{
+  display: block;
+  padding-bottom: 50rpx;
+  /* float: left; */
+}
+.detail .right{
+  display: block;
+  float: right;
+  margin-top:-105rpx;
+}

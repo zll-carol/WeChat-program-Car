@@ -1,0 +1,17 @@
+/**index.wxss**/
+.container{
+  padding: 30rpx 0;
+}
+.userinfo {
+  width: 750rpx;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+.userinfo button{
+  margin-top: -70rpx;
+}
+.userinfo image{
+   width:750rpx;
+   height:auto; 
+}

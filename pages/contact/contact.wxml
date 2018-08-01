@@ -1,0 +1,27 @@
+<!--pages/contact/contact.wxml-->
+<view class='container'>
+  <view class='contact'>
+    <image src="{{src}}"></image> 
+    <map id="map" longitude="113.324520" latitude="23.099994"  scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 300px;"></map>
+    <text>上海太古汇店</text>
+  </view>
+  <view class='address'>
+    <p>体验中心地址：</p>
+    <p class="p2" >上海市静安区石门一路288号兴业太古汇109单元  | 
+      <navigator url='/pages/location/location'>
+        <image src='../../static/images/map2.png'></image>  
+      </navigator>  
+    </p> 
+    <rich-text  nodes="{{nodes}}">
+    </rich-text>
+    <p>体验中心电话：</p>
+    <p class="p3" >15137409826</p>
+    <p class="p4">|
+    <image src='../../static/images/phone.png' 
+    bindtap="makePhoneCall"></image></p>
+  </view>
+  <view class='footer'>
+    <import src="../public/public.wxml"/>
+    <template is="footer"/>
+  </view>
+</view>

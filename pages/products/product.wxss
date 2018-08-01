@@ -1,0 +1,13 @@
+.container{
+  padding: 50rpx 0;
+}
+.product text{
+  display: block;
+  padding-bottom: 50rpx;
+  /* float: left; */
+}
+.product .right{
+  display: block;
+  float: right;
+  margin-top:-105rpx;
+}

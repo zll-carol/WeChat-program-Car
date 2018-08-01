@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo" wx:for="{{array}}">
+    <image src="{{item}}" mode="widthFix"></image>
+     <button size="{{defaultSize}}" plain="{{plain}}" bind:tap="switchCars"> 
+    预约试驾 </button> 
+  </view>
+  <view class="footer">
+    <import src="../public/public.wxml"/>
+    <template is="footer"/>
+  </view>
+</view>

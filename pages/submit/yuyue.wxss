@@ -1,0 +1,57 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20rpx 0;
+}
+.top{
+  width: 750rpx;
+  height: 400rpx;
+}
+.top text{
+  margin-left: 26%;
+  margin-top: -400rpx;
+  display: block;
+  font-size: 22px;
+  font-weight: 700;
+}
+.top image{
+  width:750rpx;
+}
+.infor{
+  margin-top: 100rpx;  
+  align-self: flex-start;
+  margin-left: 20px;
+}
+.infor input{
+  width: 670rpx;
+  height: 80rpx;
+  margin-bottom: 30rpx;
+  background: #ddd;
+  font-size: 16px;
+  padding-left: 10rpx;
+}
+.infor button{
+  width:200rpx;
+  height:75rpx;
+  text-align: center; 
+  line-height: 75rpx;
+  background: black;
+  color:white;
+  margin-top: 60rpx;
+  margin-left: 35%; 
+}
+.submitFooter {
+  margin-top:200rpx; 
+  justify-content:center;  
+}
+.submitFooter image{
+  width: 200rpx;
+  display: block;
+  margin-left:16%;  
+}
+.submitFooter  text{
+  margin-top: 10rpx;
+  color:#aaa;
+  font-size: 16px;
+}

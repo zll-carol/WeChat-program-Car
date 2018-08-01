@@ -1,0 +1,32 @@
+<!--pages/cars/cars.wxml-->
+<view class='container'>
+  <view class='product' >
+      <image src='{{product.image}}'></image>
+
+      <text>型号</text>
+      <text class='right'>{{product.name}}</text>
+
+      <text>功率</text>
+      <text class='right'>{{product.detail.topSpeed}}</text>
+
+      <text>0—100km/h加速时间</text>
+      <text class='right'>{{product.detail.zeroTo100}}</text>
+
+      <text>最高时速</text>
+      <text class='right'>{{product.detail.power}}</text>
+
+      <text>耗油量 混合(L/100km)</text>
+      <text class='right'>{{product.detail.oilWear}}</text>
+
+      <text>郊区(L/100km)</text>
+      <text class='right'>7.0</text>
+
+      <text>价格</text>
+      <text class='right'>{{product.price}}</text>
+  </view>
+  <view class="footer">
+    <import src="../public/public.wxml"/>
+    <template is="footer"/>
+  </view>
+</view>
+

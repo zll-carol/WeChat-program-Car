@@ -1,0 +1,7 @@
+<!--pages/public/public.wxml-->
+<template name="footer" >
+  <view class="public" style='width:750rpx heigth:300rpx backgound:#8a8a8a'>
+    <image src="../../static/images/logo.jpg" mode='widthFix'></image>
+    <text>由微盟微站提供技术服务</text> 
+  </view>
+</template>

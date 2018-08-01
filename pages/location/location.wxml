@@ -1,0 +1,4 @@
+<!--pages/location/location.wxml-->
+<view class='container'>
+     <map id="map" latitude="34.044823" longitude="113.867680" scale="14" markers="{{markers}}" show-location style="width: 100%; height:750rpx;"></map>  
+</view>

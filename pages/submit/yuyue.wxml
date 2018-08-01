@@ -1,0 +1,17 @@
+<!--pages/submit/预约.wxml-->
+<view class="container">
+  <view class='top'>
+    <image src="{{src}}"></image>
+    <text>预约到店亲临体验</text>
+  </view>
+  <view class="infor">
+    <input placeholder="请输入姓名" focus='true' cursor='1' auto-focus/>
+    <input placeholder="请输入电话号码" type="number" maxlength='11' auto-focus/> 
+      <button> 提交预约</button> 
+  </view>
+  <view class="footer">
+    <import src="../public/public.wxml"/>
+    <template is="footer"/>
+  </view>  
+</view>
+
